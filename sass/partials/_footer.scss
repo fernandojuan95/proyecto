@@ -1,0 +1,54 @@
+// footer
+.div3 { 
+    margin: 0 auto;
+    padding: 1rem;
+    background: #A396A4;
+    background: -moz-linear-gradient(left, #A396A4 0%, #2388CB 50%, #437553 100%);
+    background: -webkit-linear-gradient(left, #A396A4 0%, #2388CB 50%, #437553 100%);
+    background: linear-gradient(to right, #A396A4 0%, #2388CB 50%, #437553 100%);
+    width: 100%;
+    text-align: center;
+    /*redes*/
+        .div15 {
+        display: flex;
+        justify-content: center;
+        .div15:hover{
+             color: azure;
+             cursor: pointer;
+        }
+            .div17{
+                color: black;
+                transition: 0.3s;
+                padding: 1rem;
+                font-size: 3rem;
+                &:hover{
+                    color: azure;
+                    cursor: pointer;
+                }
+            }   
+            .div18{
+                color: black;
+                transition: 0.3s;
+                font-size: 3rem;
+                padding: 1rem;
+                &:hover{
+                    color: azure;
+                    cursor: pointer;
+                }
+            }
+        }
+        .div19{
+            padding: 1rem;
+            font-size: 2rem;
+            font-family: 'Times New Roman', Times, serif;
+            border: 2px solid black;
+            border-radius: 0.5rem;
+            color: black;
+            text-decoration: none;
+            &:hover{
+                color: azure;
+                border: 2px solid azure;
+                cursor: pointer;
+            }
+        }
+        }

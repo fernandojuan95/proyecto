@@ -1,0 +1,68 @@
+// header
+.div1 {  
+    background-color: #4040A4;
+    .div4{
+        text-align: center;
+    }
+    .navbar-brand{
+        background-color: #17176c;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        transition: 0.5s;
+    }
+    .nav-item{
+        background-color: #4040A4;
+    }
+    .container-fluid{
+        background-color: #3b3bbe;
+        &:hover{
+            color: azure;
+            cursor: pointer;
+            .navbar-brand{
+                justify-content: center;
+            }
+        }
+    }
+    .offcanvas-header{
+        background-color: #4040A4;
+    }
+}
+// nav
+.div5 { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 2px;
+    .div6 { 
+        text-decoration: none; 
+        color: black;
+        font-size: large;
+        transition: 0.3s;
+        text-align: center;
+        &:hover{
+            color: azure;
+            cursor: pointer;
+        }
+    }
+    .div7 {  
+        text-decoration: none;
+        color: black;
+        font-size: large;
+        transition: 0.3s;
+        &:hover{
+            color: azure;
+            cursor: pointer;
+        }
+    }
+    .div8 { 
+        text-decoration: none;
+        color: black;
+        font-size: large;
+        transition: 0.3s;
+        &:hover{
+            color: azure;
+            cursor: pointer;
+        }
+    }
+}
