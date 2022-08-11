@@ -11,13 +11,14 @@
     /*redes*/
         .div15 {
         display: flex;
+        flex-direction: row;
         justify-content: center;
         .div15:hover{
              color: azure;
              cursor: pointer;
         }
             .div17{
-                color: black;
+                color: black;               
                 transition: 0.3s;
                 padding: 1rem;
                 font-size: 3rem;

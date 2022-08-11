@@ -1,0 +1,10 @@
+@mixin grid($gtc, $ji, $pdd) {
+    display: grid;
+    grid-template-columns: $gtc;
+    justify-items: $ji;
+    padding: $pdd;
+}
+@mixin flex($fxd) {
+    display: flex;
+    flex-direction: $fxd;
+}

@@ -4,11 +4,8 @@
     background: -webkit-linear-gradient(left, #A44E4E 0%, #2388CB 50%, #437553 100%);
     background: linear-gradient(to right, #A44E4E 0%, #2388CB 50%, #437553 100%);
     /*productos*/
-        .div9 {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            justify-items: center;
-            padding: 1rem;
+        .div9 { 
+            @include grid(repeat (4, 1fr), center, 1rem );
             .div11, .div12, .div13, .div14{
                 margin-top: 5rem;
                 .card{
