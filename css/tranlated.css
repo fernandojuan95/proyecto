@@ -95,6 +95,10 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center; }
 
+.quienesbajo{
+  justify-content: right;
+  }
+
 .div3 {
   margin: 0 auto;
   padding: 1rem;
