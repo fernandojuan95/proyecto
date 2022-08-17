@@ -4,10 +4,6 @@
     background: -webkit-linear-gradient(left, #A44E4E 0%, #2388CB 50%, #437553 100%);
     background: linear-gradient(to right, #A44E4E 0%, #2388CB 50%, #437553 100%);
     /*productos*/
-    .quienesbajo{
-     display: flex;
-     justify-content: center;
-     }
         .div9 { 
             @include grid(repeat (4, 1fr), center, 1rem );
             .div11, .div12, .div13, .div14{
@@ -32,8 +28,7 @@
 }
     .email{
         font-size: 2rem;
-        font-family: sans-serif;
-        text-align: center;
+        justify-content: center;
     }
     .cuotas{
         font-size: 2rem;
